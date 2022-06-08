@@ -1,0 +1,92 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.diorn"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:4:22-64
+13
+14    <queries>
+14-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:5:5-11:15
+15        <intent>
+15-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:6:7-10:16
+16            <action android:name="android.intent.action.VIEW" />
+16-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:7:9-61
+16-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:7:17-58
+17
+18            <category android:name="android.intent.category.BROWSABLE" />
+18-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:8:9-70
+18-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:8:19-67
+19
+20            <data android:scheme="https" />
+20-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:9:9-40
+20-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:9:15-37
+21        </intent>
+22    </queries>
+23
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+24-->[com.facebook.flipper:flipper:0.125.0] C:\Users\Ruallyson\.gradle\caches\transforms-3\85fdd9af1f70f27ec9080a3596d5a5c1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+24-->[com.facebook.flipper:flipper:0.125.0] C:\Users\Ruallyson\.gradle\caches\transforms-3\85fdd9af1f70f27ec9080a3596d5a5c1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+25
+26    <application
+26-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:12:5-31:19
+27        android:name="com.diorn.MainApplication"
+27-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:13:7-38
+28        android:allowBackup="false"
+28-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:17:7-34
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.5.0] C:\Users\Ruallyson\.gradle\caches\transforms-3\92f097da2c13c17a6cb693c16e868191\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:15:7-41
+32        android:label="@string/app_name"
+32-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:14:7-39
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:16:7-52
+34        android:theme="@style/AppTheme"
+34-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:18:7-38
+35        android:usesCleartextTraffic="true" >
+35-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\debug\AndroidManifest.xml:8:9-44
+36        <activity
+36-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\debug\AndroidManifest.xml:11:9-111
+37            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+37-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\debug\AndroidManifest.xml:11:19-83
+38            android:exported="false" />
+38-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\debug\AndroidManifest.xml:11:84-108
+39        <activity
+39-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:19:7-30:18
+40            android:name="com.diorn.MainActivity"
+40-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:20:9-37
+41            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+41-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:22:9-118
+42            android:exported="true"
+42-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:25:9-32
+43            android:label="@string/app_name"
+43-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:21:9-41
+44            android:launchMode="singleTask"
+44-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:23:9-40
+45            android:windowSoftInputMode="adjustResize" >
+45-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:24:9-51
+46            <intent-filter>
+46-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:26:9-29:25
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:27:13-65
+47-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:27:21-62
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:28:13-73
+49-->C:\Users\Ruallyson\Desktop\Desenvolvimento Web\react-native-dio-main\android\app\src\main\AndroidManifest.xml:28:23-70
+50            </intent-filter>
+51        </activity>
+52    </application>
+53
+54</manifest>
